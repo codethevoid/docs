@@ -1,0 +1,19 @@
+---
+title: Reserves
+description: Learn how reserves work on the XRP Ledger.
+icon: building-columns
+---
+
+The XRP Ledger enforces reserve requirements in XRP to prevent excessive growth of the ledger from spam or malicious activity, ensuring it remains manageable on standard hardware.
+
+To activate an account, a minimum amount of XRP must be held in the ledger. Reserves aren't idle - you can use them to cover transaction fees, essentially pre-funding your account for future transactions.
+
+The reserve amount may change over time through the fee voting process, where validators agree on new settings.
+
+## Base reserves
+
+The base reserve is currently **1 XRP**. This is the minimum amount of XRP that each account must hold to exist on the XRP Ledger. It ensures that the account has enough XRP to cover basic ledger costs and helps prevent the ledger from being flooded with accounts.
+
+## Onwer reserves
+
+Accounts must hold a small reserve of XRP for each item they own, called the owner reserve, which is currently **0.2 XRP per item**. This applies to objects like trustlines and other account-related items. When items are deleted, the reserve is released back to the account.

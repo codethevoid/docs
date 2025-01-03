@@ -1,0 +1,49 @@
+---
+title: Fees
+description: Learn about fees in the TokenOS DEX.
+icon: dollar-sign
+---
+
+TokenOS charges a **1%** fee on all trades, paid in XRP. This fee, capped at 100 USD per trade, is transparently displayed in the order form. The funds go directly to supporting the team and ongoing development and improvement of the platform.
+
+## How fees are calculated
+
+Our platform uses two distinct methods for calculating fees, tailored to whether you are buying or selling an asset. This approach ensures that the fee structure remains fair and consistent, regardless of the type of transaction.
+
+### Method 1. When buying an asset
+
+We calculate the fee by multiplying the amount of XRP you're sending by 1%.
+
+For example:
+
+- If you're sending 100 XRP in exchange for another asset, the fee will be 1 XRP. If the value of XRP is 2.00 USD, the fee will be equivalent to 2.00 USD.
+
+- For larger trades, such as 100,000 XRP, the 1% fee would be 1,000 XRP or 2,000 USD. However, since we have a cap of 100 USD, the fee is limited to 50 XRP (equivalent to 100 USD when XRP is 2.00 USD).
+
+This cap ensures that trading large amounts remains cost-effective while keeping fees transparent and predictable.
+
+### Method 2. When selling an asset
+
+When selling an issued token for XRP, the fee calculation involves several steps:
+
+1. First, we get the current price of the issued token in XRP
+2. Then we calculate the total trade value in XRP by multiplying:
+   - Amount of tokens you're selling × price per token in XRP
+3. Calculate the fee as 1% of the total XRP trade value
+4. Check if this fee exceeds 100 USD using the current XRP price in USD
+   - If it does, we adjust the XRP fee down to the equivalent of 100 USD.
+
+For example:
+
+- If you're selling 100 MOON tokens
+- And MOON's price is 2 XRP per token
+- The total trade value in XRP is 200 XRP
+- The fee is 1% x 200 XRP = 2 XRP
+- If XRP is worth 2.00 USD, the fee would be equivalent to 4.00 USD
+
+**Note:** We cap the fee at 100 USD. If the calculated fee exceeds this value:
+
+- We use the current XRP price to determine how much XRP equals 100 USD
+- Then charge that amount instead of the full percentage
+
+This ensures the fee never exceeds 100 USD regardless of the trade size.
