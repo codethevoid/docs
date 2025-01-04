@@ -48,6 +48,10 @@
     {
       "group": "DEX",
       "pages": ["dex/overview", "dex/trading", "dex/slippage", "dex/fees"]
+    },
+    {
+      "group": "Affiliate",
+      "pages": ["affiliate/earn"]
     }
   ],
   "footerSocials": {
