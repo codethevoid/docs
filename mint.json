@@ -1,10 +1,10 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "TokenOS",
+  "name": "Motion",
   "logo": {
     "dark": "/logo/dark.svg",
     "light": "/logo/light.svg",
-    "href": "https://tokenos.one"
+    "href": "https://motion.zip"
   },
   "favicon": "/favicon.png",
   "colors": {
@@ -19,12 +19,12 @@
   "topbarLinks": [
     {
       "name": "Support",
-      "url": "mailto:support@tokenos.one"
+      "url": "mailto:support@motion.zip"
     }
   ],
   "topbarCtaButton": {
     "name": "Application",
-    "url": "https://tokenos.one"
+    "url": "https://motion.zip"
   },
   "tabs": [],
   "anchors": [],
@@ -55,8 +55,8 @@
     }
   ],
   "footerSocials": {
-    "x": "https://x.com/tokenosdotone",
-    "website": "https://tokenos.one"
+    "x": "https://x.com/motiondotzip",
+    "website": "https://motion.zip"
   },
   "theme": "prism"
 }
